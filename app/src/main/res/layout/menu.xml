@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/inveneer"
+        android:layout_width="183dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="23dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="82dp"
+        android:text="@string/inveneer"
+        android:textAppearance="@style/inveneer"
+        android:lineSpacingExtra="0sp"
+        android:gravity="top"
+        />
+    <TextView
+        android:id="@+id/memudahkan_"
+        android:layout_width="214dp"
+        android:layout_height="102dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="155dp"
+        android:text="@string/memudahkan_"
+        android:textAppearance="@style/memudahkan_"
+        android:gravity="top"
+        />
+    <Button
+        android:id="@+id/button_tambah"
+        android:layout_width="169dp"
+        android:layout_height="58dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="403dp"
+        android:background="@drawable/custombtn2"
+        android:text="@string/tombol_tambah"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/button_view"
+        android:layout_width="169dp"
+        android:layout_height="58dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="488dp"
+        android:background="@drawable/custombtn2"
+        android:text="@string/tombol_lihat"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/button_edit_data"
+        android:layout_width="169dp"
+        android:layout_height="58dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="576dp"
+        android:background="@drawable/custombtn2"
+        android:text="@string/button_edit"
+        android:textColor="#ffffff"/>
+</RelativeLayout>

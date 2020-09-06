@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+
+<ImageView
+    android:layout_width="79dp"
+    android:layout_height="92dp"
+    android:layout_alignParentLeft="true"
+    android:layout_marginLeft="166dp"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="53dp"
+        android:background="@drawable/logo"/>
+<!--    <ImageView-->
+<!--        android:layout_width="80dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_alignTop="@+id/textView4"-->
+<!--        android:layout_toRightOf="@+id/TFpassword"-->
+<!--        android:layout_toEndOf="@+id/TFpassword" />-->
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="115dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="175dp"
+        android:text="Username"
+        android:textColor="#616060" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TFusername"
+        android:layout_alignStart="@+id/TFusername"
+        android:layout_alignLeft="@+id/TFusername"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="31dp"
+        android:text="Password"
+        android:textColor="#616060" />
+
+    <EditText
+        android:id="@+id/TFusername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_alignLeft="@+id/textView3"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#008BFA"
+        android:textColorHighlight="#011E75"
+        android:textColorHint="#FFE504"
+        android:textColorLink="#FFEB3B" />
+
+    <EditText
+        android:id="@+id/TFpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_alignLeft="@+id/textView4"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="#E91E63"
+        android:textColorHighlight="#0E1A87"
+        android:textColorHint="#FFE504"
+        android:textColorLink="#FFC107" />
+
+    <Button
+        android:id="@+id/Blogin"
+        android:layout_width="307dp"
+        android:layout_height="53.24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="52dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="451dp"
+        android:background="@drawable/custombtn2"
+        android:onClick="onButtonClick"
+        android:text="Login"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/bregister"
+        android:layout_width="307dp"
+        android:layout_height="58dp"
+        android:layout_alignEnd="@id/TFpassword"
+        android:layout_alignRight="@+id/TFpassword"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="52dp"
+        android:layout_marginEnd="-122dp"
+        android:layout_marginRight="-122dp"
+        android:layout_marginBottom="138dp"
+        android:background="@drawable/custombtn2"
+        android:onClick="onButtonClick"
+        android:text="Register"
+        android:textColor="#FFFFFF" />
+</RelativeLayout>

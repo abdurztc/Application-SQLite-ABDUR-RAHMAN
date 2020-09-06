@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    >
+
+    <Button
+        android:id="@+id/button_edit_data"
+        android:layout_width="139dp"
+        android:layout_height="69dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="136dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="219dp"
+        android:background="@drawable/custombtn2"
+        android:text="@string/tombol_dialog_edit"
+        android:textAppearance="@style/button_input" />
+
+    <Button
+        android:id="@+id/button_delete_data"
+        android:layout_width="139dp"
+        android:layout_height="69dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="136dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="329dp"
+        android:background="@drawable/custombtn2"
+        android:text="@string/tombol_dialog_delete"
+        android:textAppearance="@style/button_input" />
+</RelativeLayout>
